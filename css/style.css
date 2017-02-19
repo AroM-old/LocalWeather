@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Righteous');
+/*****************
+General style
+******************/
+body {
+  margin-top: 2.5em;
+  background: url(/img/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: black;
+  font-family: "Bungee";
+  font-size: 2.5em;
+}
+p, span,
+h1,h2,h3,
+h4,h5 {
+  margin: 0px;
+  padding: 0px;
+} 
+/*****************
+Weather Wrapper
+******************/
+.wrapper {
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px 3px rgba(8, 8, 8, 0.6);
+  background-color: #ffffff;
+  opacity: 0.7;
+}
+
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 10px;
+}
+/*****************
+Breakpoint
+******************/
+@media screen and (min-width:300px){
+  h1 {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+  }
+  .wrapper {
+    width: 350px;
+  }
+  p, span{
+    font-size: 1em;
+    margin: 10px 5px;
+  }
+}
+@media screen and (min-width:1000px){
+  h1 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+  }
+  .wrapper {
+    width: 450px;
+    padding: 20px;
+  }
+  p, span{
+    font-size: 1.5em;
+    margin: 0 5px;
+  }
+}
