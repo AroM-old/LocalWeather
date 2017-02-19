@@ -4,7 +4,7 @@ General style
 ******************/
 body {
   margin-top: 2.5em;
-  background: url(/img/bg.jpg) no-repeat center center fixed;
+  background: url(../img/bg.jpg) no-repeat center center fixed;
   background-size: cover;
   color: black;
   font-family: "Bungee";
