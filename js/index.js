@@ -14,7 +14,7 @@ $(document).ready(function () {
       lat = position.coords.latitude;
       long = position.coords.longitude;
 
-      var api = ' http://api.apixu.com/v1/current.json?key=4f6ce05cdeca4ea09cb51926171902&q=' + lat + ',' + long + ''; // API url
+      var api = 'https://api.apixu.com/v1/current.json?key=4f6ce05cdeca4ea09cb51926171902&q=' + lat + ',' + long + ''; // API url
 
       // Parsing the JSON data
       $.getJSON(api, function (data) {
