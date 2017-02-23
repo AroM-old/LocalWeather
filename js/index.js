@@ -1,4 +1,8 @@
 $(document).ready(function () {
+// Geolocation with ip-api
+
+
+
   // Creatin variables
   var lat;
   var long;
