@@ -3,6 +3,7 @@
 General style
 ******************/
 body {
+  height: 100vh;
   margin-top: 2.5em;
   background: url(../img/bg.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -33,7 +34,7 @@ h1 {
   text-shadow: 10px;
 }
 /*****************
-Breakpoint
+Breakpoints
 ******************/
 @media screen and (min-width:300px){
   h1 {
@@ -43,7 +44,7 @@ Breakpoint
     
   }
   .wrapper {
-    width: 350px;
+    width: 300px;
   }
   p, span{
     font-size: 1em;
